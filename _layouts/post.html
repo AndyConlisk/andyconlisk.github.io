@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<article class="post-content">
+  <header class="post-header">
+    <time>{{ page.date | date: "%B %-d, %Y" }}</time>
+    <h1>{{ page.title }}</h1>
+  </header>
+
+  <div class="entry-content">
+    {{ content }}
+  </div>
+
+  <footer class="post-footer">
+    <hr>
+    <p>Thanks for reading. Find me on <a href="https://github.com/{{ site.github_username }}">GitHub</a> for more projects.</p>
+  </footer>
+</article>

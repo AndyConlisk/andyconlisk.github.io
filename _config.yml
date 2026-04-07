@@ -1,0 +1,36 @@
+# Site Settings
+title: "Andy Conlisk - Software Architect and Mayor"
+description: "Senior Technical Leader | Application Architect @ UPS | Mayor"
+url: "https://andyconlisk.github.io"
+baseurl: ""
+
+# User Data
+github_username: "AndyConlisk"
+linkedin_username: "andrew-conlisk"
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+theme: none # Using a custom theme, so set to none
+permalink: /blog/:title/
+
+# Collections & Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Exclude from build
+exclude:
+  - "README.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - node_modules
+  - vendor/bundle/
+  - .github/

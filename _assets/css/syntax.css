@@ -1,0 +1,44 @@
+/* Base Code Block Styling */
+pre.highlight {
+  padding: 1.5rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-family: "JetBrains Mono", "Fira Code", monospace;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  background-color: var(--code-bg);
+  color: var(--text);
+  border: 1px solid var(--border-color);
+}
+
+/* Light Mode Syntax Colors */
+:root {
+  --code-bg: #f8fafc;
+  --syn-comment: #94a3b8;
+  --syn-keyword: #d946ef;
+  --syn-string: #10b981;
+  --syn-function: #3b82f6;
+  --syn-number: #f59e0b;
+  --syn-operator: #64748b;
+}
+
+/* Dark Mode Syntax Colors */
+[data-theme="dark"] {
+  --code-bg: #010409;
+  --syn-comment: #6e7681;
+  --syn-keyword: #ff7b72;
+  --syn-string: #a5d6ff;
+  --syn-function: #d2a8ff;
+  --syn-number: #f0883e;
+  --syn-operator: #79c0ff;
+}
+
+/* Rouge CSS Classes */
+.highlight .c  { color: var(--syn-comment); font-style: italic; } /* Comment */
+.highlight .k  { color: var(--syn-keyword); font-weight: bold; }  /* Keyword */
+.highlight .s  { color: var(--syn-string); }                      /* String */
+.highlight .nf { color: var(--syn-function); }                    /* Function */
+.highlight .m  { color: var(--syn-number); }                      /* Number */
+.highlight .o  { color: var(--syn-operator); }                    /* Operator */
+.highlight .nb { color: var(--syn-function); }                    /* Built-in */
+.highlight .nl { color: var(--syn-keyword); }                     /* Label */
