@@ -11,7 +11,7 @@ title: Home
       focused on distributed systems, clean code, and engineering leadership.
     </p>
     <div class="hero-cta">
-      <a href="/expereience/" class="btn btn-primary">View My Experience</a>
+      <a href="/experience/" class="btn btn-primary">View My Experience</a>
       <a href="https://github.com/{{ site.github_username }}" class="btn btn-secondary">
         {% include icons.html icon="github" %} GitHub
       </a>

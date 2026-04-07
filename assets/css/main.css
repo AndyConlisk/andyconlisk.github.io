@@ -13,6 +13,28 @@
   --card-bg: #1e293b;
 }
 
+.container {
+  /* Set a professional max-width for readability */
+  max-width: 900px;
+  
+  /* Center the container */
+  margin-left: auto;
+  margin-right: auto;
+  
+  /* Add responsive horizontal padding */
+  /* On mobile: 1.5rem | On desktop: 2rem */
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* For larger screens, give it a bit more breathing room */
+@media (min-width: 768px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
 body {
   background-color: var(--bg);
   color: var(--text);
