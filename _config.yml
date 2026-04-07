@@ -11,7 +11,7 @@ linkedin_username: "andrew-conlisk"
 # Build Settings
 markdown: kramdown
 highlighter: rouge
-theme: none # Using a custom theme, so set to none
+#theme: none # Using a custom theme, so set to none
 permalink: /blog/:title/
 
 # Collections & Defaults
